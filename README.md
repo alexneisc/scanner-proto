@@ -1,6 +1,6 @@
 # scanner-proto
 
-A throwaway Tauri 2 + SvelteKit prototype that scans QR codes and barcodes with the iPhone camera. It exists to find out whether the Tauri plugin approach is good enough for a real app, compared with a native implementation. It is not a product and has no license.
+A throwaway Tauri 2 + SvelteKit prototype that scans QR codes and barcodes with the iPhone camera. It exists to find out whether the Tauri plugin approach is good enough for a real app, compared with a native implementation. It is not a product. The app code is under the MIT license (see `LICENSE`). The vendored plugin in `src-tauri/vendor` keeps its upstream licenses (Apache-2.0 / MIT).
 
 What it does: one screen with a Scan button. After a scan it shows the code type (QR, Code 128, EAN-13 and so on), the decoded text, and the time in milliseconds from the moment scanning starts (after the camera permission is granted) to the result. It keeps the last 10 scans in memory. It also has a Flash button that keeps the torch on during a scan. There are no network requests, no database and no analytics.
 
