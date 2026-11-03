@@ -1,7 +1,7 @@
 {
   "name": "scanner-proto",
   "version": "0.1.0",
-  "description": "",
+  "description": "Tauri 2 barcode scanner prototype for iOS",
   "type": "module",
   "scripts": {
     "dev": "vite dev",
